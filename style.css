@@ -1,0 +1,135 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color:rgb(155, 239, 144);
+}
+/* start
+*{
+    box-sizing:border-box ;
+    padding:0;
+    margin:0;
+} */
+/* html{
+    /* scroll-behavior:smooth;
+} */
+/* body{
+    font-family:"open sans",sans-serif ;
+    background-color: rgb(1, 41, 5);
+    background-image: url(plantes.jpg);
+    background-repeat: no-repeat;
+    
+}  */
+ul{
+    list-style:none;
+}
+
+/* small*/
+/* @media(min-width:768px){
+    .container{
+        width:750px
+    }
+} */
+/*Medium*/
+/* @media(min-width:992px){
+    .container{
+        width:970px
+    }
+} */
+
+/*width de la premier div"container"*/
+@media(min-width:100px){
+    .container{
+        width:1170px;
+        background-color:rgb(233, 230, 225);
+    }
+}
+
+.container{
+    padding-left:15px;
+    padding-right:15px;
+    margin-left:auto;
+    margin-right:auto;
+    display:flex;
+    background-color:rgb(155, 239, 144);
+ /* justify-content:space-between; */
+}
+img{
+    height:120px;
+}
+header{
+    position: relative;
+   
+}
+header nav{
+    flex:1;
+    display:flex;
+    align-items:center;
+    justify-content:flex-end;
+    
+}
+
+/*respansive*/
+header nav .toggle-menu{
+    color:azure;
+    font-size:22px;
+}
+/* @media(min-width:768){
+    header nav .toggle-menu{
+        display:none;
+    }
+} */
+header nav ul{
+    display:flex;
+}
+@media(max-width:767px){
+    header nav ul{
+        display: none;
+    }
+}
+header nav ul li  a{
+    display:block;
+    color: white;
+    /* padding:40px 10px; */
+    text-decoration:none; 
+    font-size:14px;
+    transition:0,3s;
+}
+.emg{
+    width:100%;
+    height:450px;
+    
+    background-image:url(plantes.jpg);   
+}
+.text{
+    width:100%;
+    color:white; 
+    margin-left:80px;
+    margin-top:100px;
+    font-family:initial;
+    position:absolute;
+    font-size:50px;
+}
+p{
+    background-color:#57ea3d;
+    width:500px;
+    height:200px;
+    margin-left:60px;
+    margin-bottom:40px;
+    font-size:25px;
+   border-radius:15px 15px 15px 15px;
+   padding:9px;
+}
+.bg{
+    background-color: #0d9720;
+    width:100%;
+    height:750px;
+    /* /* margin-left:87px; * */
+    position:absolute;
+}
+.emg2{
+    background-image:url(img/mon1.png);
+    background-color: rgb(20, 87, 147);
+}
+
